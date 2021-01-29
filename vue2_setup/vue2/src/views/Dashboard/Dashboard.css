@@ -1,0 +1,17 @@
+.dashboard-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.dashboard-title > h3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #ff8000;
+}
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,40 @@
+.main-layout-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+.main-layout-header {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 3px 6px 5px -5px rgba(0, 0, 0, 0.9);
+}
+.main-layout-sidebar {
+  /* margin-top: 45px; */
+}
+.main-layout-body {
+  margin: 45px 5px;
+  /* border: 1px solid green; */
+  position: relative;
+  max-height: 85vh;
+}
+.main-layout-footer {
+  position: absolute;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  box-shadow: 3px 6px 5px -5px rgba(0, 0, 0, 0.9);
+  background: linear-gradient(
+    to right,
+    #fc4a1a,
+    #f7b733
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

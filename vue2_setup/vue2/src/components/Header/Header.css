@@ -1,0 +1,29 @@
+.header-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: #fff;
+}
+
+.header-content-menu,
+.header-content-account {
+  cursor: pointer;
+}
+.header-content-menu {
+  transition: transform 200ms ease-in-out;
+}
+
+.header-content-account:hover,
+.header-content-menu:hover {
+  opacity: 0.8;
+}
+.header-content-account {
+  display: flex;
+  align-items: flex-end;
+}
+.header-content-account > span {
+  margin-left: 5px;
+}

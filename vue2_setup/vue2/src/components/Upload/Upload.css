@@ -1,0 +1,25 @@
+.drop-zone {
+  height: 300px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 500;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px dashed #000;
+  border-radius: 10px;
+  color: #000;
+  background-color: #ccc;
+}
+.drop-zone > span {
+  font-size: 22px;
+  font-weight: 600;
+}
+.dropzone-input {
+  display: none;
+}
+.drop-zone--over {
+  border-style: solid;
+}

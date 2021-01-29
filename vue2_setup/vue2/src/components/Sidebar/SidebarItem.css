@@ -1,0 +1,17 @@
+.sidebar-body-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.sidebar-body-item:hover {
+  opacity: 0.6;
+}
+.sidebar-body-item > span {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}

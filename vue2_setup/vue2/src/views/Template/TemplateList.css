@@ -1,0 +1,23 @@
+.wrapper {
+  height: 91vh;
+  margin-top: 40px;
+  overflow: auto;
+  box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+.control-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.control-table i {
+  cursor: pointer;
+}
+.template-link {
+  cursor: pointer;
+  font-weight: 550;
+}
+.template-link:hover {
+  color: orange;
+  font-weight: 550;
+}
